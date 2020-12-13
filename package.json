@@ -1,0 +1,17 @@
+{
+  "name": "heywire",
+  "version": "1.0.0",
+  "description": "A Chat application for frequent gossipers...",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Ravi Anand",
+  "license": "MIT",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "express": "^4.17.1",
+    "socket.io": "^3.0.4"
+  }
+}
